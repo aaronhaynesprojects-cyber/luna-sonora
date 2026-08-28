@@ -12,7 +12,7 @@ const configurations = [
 export default function Home() {
   const [selected, setSelected] = useState(1);
   const [bagOpen, setBagOpen] = useState(false);
-  const [heroVersion, setHeroVersion] = useState(0);
+  const [heroVersion, setHeroVersion] = useState(1);
   const heroViews = [
     { src: "/uma-original-product.jpg", alt: "Original UMA sound lantern illuminated on a clean background", label: "Product" },
     { src: "https://www.loftmodern.com/cdn/shop/files/uma-mini--v7-copy_download.jpg?v=1749791491", alt: "Wide view of UMA Mini", label: "Wide" },
